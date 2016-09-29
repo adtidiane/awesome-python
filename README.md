@@ -320,6 +320,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 *Libraries for manipulating images.*
 
+* [pagan](https://github.com/daboth/pagan) - is avatar generator for absolute nerds.
 * [pillow](https://github.com/python-pillow/Pillow) - Pillow is the friendly [PIL](http://www.pythonware.com/products/pil/) fork.
 * [hmap](https://github.com/rossgoodwin/hmap) - Image histogram remapping.
 * [imgSeek](https://sourceforge.net/projects/imgseek/) - A project for searching a collection of images using visual similarity.
@@ -662,7 +663,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [MarkupSafe](https://github.com/pallets/markupsafe) - Implements a XML/HTML/XHTML Markup safe string for Python.
 * [pyquery](https://github.com/gawel/pyquery) - A jQuery-like library for parsing HTML.
 * [untangle](https://github.com/stchris/untangle) - Converts XML documents to Python objects for easy access.
-* [xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) - HTML/CSS to PDF converter.
+* [WeasyPrint](http://weasyprint.org) - A visual rendering engine for HTML and CSS that can export to PDF.
 * [xmldataset](https://xmldataset.readthedocs.io) - Simple XML Parsing.
 * [xmltodict](https://github.com/martinblech/xmltodict) - Working with XML feel like you are working with JSON.
 
@@ -771,6 +772,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [eventlet](http://eventlet.net/) - Asynchronous framework with WSGI support.
 * [gevent](http://www.gevent.org/) - A coroutine-based Python networking library that uses [greenlet](https://github.com/python-greenlet/greenlet).
 * [Tomorrow](https://github.com/madisonmay/Tomorrow) - Magic decorator syntax for asynchronous code.
+* [uvloop](https://github.com/MagicStack/uvloop) - Ultra fast implementation of asyncio event loop on top of libuv.
 
 ## Networking
 
@@ -797,7 +799,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *WSGI-compatible web servers.*
 
 * [gunicorn](https://pypi.python.org/pypi/gunicorn) - Pre-forked, partly written in C.
-* [uwsgi](https://uwsgi-docs.readthedocs.io/) - A project aims at developing a full stack for building hosting services, written in C.
+* [uWSGI](https://uwsgi-docs.readthedocs.io/) - A project aims at developing a full stack for building hosting services, written in C.
 * [bjoern](https://pypi.python.org/pypi/bjoern) - Asynchronous, very fast and written in C.
 * [fapws3](http://www.fapws.org/) - Asynchronous (network side only), written in C.
 * [meinheld](https://pypi.python.org/pypi/meinheld) - Asynchronous, partly written in C.
@@ -898,7 +900,8 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * Code Coverage
     * [coverage](https://pypi.python.org/pypi/coverage) - Code coverage measurement.
 * Fake Data
-    * [faker](http://www.joke2k.net/faker/) - A Python package that generates fake data.
+    * [church](https://github.com/lk-geimfari/church) - is a Python library that help you generate fake data.
+    * [faker](https://github.com/joke2k/faker) - A Python package that generates fake data.
     * [fake2db](https://github.com/emirozer/fake2db) - Fake database generator.
     * [radar](https://pypi.python.org/pypi/radar) - Generate random datetime / time.
 * Error Handler
@@ -979,6 +982,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [pygraphviz](https://pypi.python.org/pypi/pygraphviz) - Python interface to [Graphviz](http://www.graphviz.org/).
 * [PyQtGraph](http://www.pyqtgraph.org/) - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
 * [SnakeViz](http://jiffyclub.github.io/snakeviz/) - A browser based graphical viewer for the output of Python's cProfile module.
+* [seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using matplotlib.
 * [vincent](https://github.com/wrobstory/vincent) - A Python to Vega translator.
 * [VisPy](http://vispy.org/) - High-performance scientific visualization based on OpenGL.
 
@@ -1230,7 +1234,7 @@ Where to discover new Python libraries.
 * [@pypi](https://twitter.com/pypi)
 * [@pythontrending](https://twitter.com/pythontrending)
 * [@PythonWeekly](https://twitter.com/PythonWeekly)
- 
+
 ## Podcasts
 
 * [Podcast.init](http://podcastinit.com/)
@@ -1253,4 +1257,4 @@ List of lists.
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/vinta/awesome-python/blob/master/CONTRIBUTING.md) first.
 
-I would keep some pull requests open if I'm not sure whether the libraries are awesome, you could [vote for them](https://github.com/vinta/awesome-python/pulls) by adding :+1: to them.
+I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/vinta/awesome-python/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
